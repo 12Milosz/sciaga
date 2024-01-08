@@ -1,0 +1,60 @@
+html {
+    background-color: orange;
+}
+
+body {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    padding: 1% 0;
+    list-style-type: none;
+    margin: 0;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: border-bottom 0.3s;
+}
+
+nav ul li:hover a {
+    border-bottom: 1px solid white;
+}
+
+h1 {
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 70px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 2.0rem;
+    margin-top: 70px;
+}
+
+section> article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main {
+    padding: 3%;
+}
